@@ -1,0 +1,77 @@
+
+
+/* Sections  */
+
+.title {
+    text-align: center;
+    background-color: #ffd1bd;
+}
+
+.skills {
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+
+
+
+
+/* Text  */
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 3%;
+}
+
+.languages-and-skills-heading {
+    margin-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Image Styles */
+
+.skills-image-container {
+    margin-top: 3%;
+    vertical-align: top;
+}
+
+.title-image {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+ .skills-image {
+    max-width: 5%;
+    max-height: 5%;
+     margin-right: 2%;
+}
+
+
+.html-image {
+    max-width: 7%;
+    max-height: 7%;
+}
+
+.css-image {
+    max-width: 4%;
+    max-height: 4%;
+}
+
+.python-image {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.sql-image {
+    max-width: 10%;
+    max-height: 10%;
+}
+.ruby-image {
+    max-width: 5%;
+    max-height: 5%;
+}
+
+
+
+
