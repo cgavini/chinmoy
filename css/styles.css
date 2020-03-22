@@ -60,15 +60,14 @@
 }
 
  .skills-image {
-    max-width: 5%;
-    max-height: 5%;
-     margin-right: 2%;
+    max-width: 7%;
+    max-height: 7%;
 }
 
 
 .html-image {
-    max-width: 7%;
-    max-height: 7%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 .css-image {
@@ -76,20 +75,62 @@
     max-height: 4%;
 }
 
-.python-image {
+ .python-image {
     max-width: 20%;
     max-height: 20%;
-}
+} 
 
 .sql-image {
-    max-width: 10%;
-    max-height: 10%;
-}
-.ruby-image {
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 15%;
+    max-height: 15%;
 }
 
 
+.js-image {
+    max-width: 9%;
+    max-height: 9%; 
+}
 
 
+
+
+ /* Carousel Styles */
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   height: 100px;
+   width: 100px;
+   outline: black;
+   background-size: 100%, 100%;
+   background-image: none;
+ }
+ 
+ .carousel-control-next-icon:after
+ {
+   content: '>';
+   font-size: 55px;
+   color: blue;
+ }
+ 
+ .carousel-control-prev-icon:after {
+   content: '<';
+   font-size: 55px;
+   color: blue;
+ }
+ 
+ 
+ 
+ #skillsCarousel {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding-top: 3%;
+     text-align: center;
+ }
+ 
+ @media only screen and (max-width: 700px) {
+   .carousel-control-prev-icon:after {
+       font-size: 25px;
+   }
+   .carousel-control-next-icon:after {
+       font-size: 25px;
+   }
+ }
