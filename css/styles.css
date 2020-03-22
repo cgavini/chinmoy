@@ -5,13 +5,12 @@
 .title {
     text-align: center;
     background-color: #ffd1bd;
-}
+} 
 
 .skills {
+    text-align: center;
     background-color: #ffffff;
-    text-align: center; 
 }
-
 
 
 
@@ -24,17 +23,14 @@
 }
 
 .languages-and-skills-heading {
-    margin-top: 3%;
+    margin-top: 5%;
     font-family: 'Montserrat', sans-serif;
 }
 
 
 /* Image Styles */
 
-.skills-image-container {
-    margin-top: 3%;
-    vertical-align: top;
-}
+
 
 .title-image {
     max-width: 20%;
@@ -42,35 +38,69 @@
 }
 
  .skills-image {
-    max-width: 5%;
-    max-height: 5%;
-     margin-right: 2%;
-}
-
-
-.html-image {
-    max-width: 7%;
-    max-height: 7%;
-}
+     margin: auto;
+     max-width: 10%;
+} 
 
 .css-image {
-    max-width: 4%;
-    max-height: 4%;
-}
+    max-width: 7%;
+    margin: auto;
+} 
 
-.python-image {
+.skills-image-scaledown {
     max-width: 20%;
-    max-height: 20%;
+    margin: auto;
 }
 
-.sql-image {
-    max-width: 10%;
-    max-height: 10%;
+
+
+
+
+
+
+ /* Carousel Styles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
 }
-.ruby-image {
-    max-width: 5%;
-    max-height: 5%;
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: blue;
 }
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: blue;
+}
+
+
+
+#skillsCarousel {
+    padding-top: 3%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel-control-prev-icon:after {
+      font-size: 25px;
+  }
+  .carousel-control-next-icon:after {
+      font-size: 25px;
+  }
+}
+
+
+
+
+
 
 
 
