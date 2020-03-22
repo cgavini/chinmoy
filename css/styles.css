@@ -4,7 +4,7 @@
 
 .title {
     text-align: center;
-    background-color: #ffd1bd;
+    background-color: #c2f0fc;
 }
 
 .skills {
@@ -12,6 +12,24 @@
     text-align: center; 
 }
 
+.work-experience {
+    margin-top: 20px;
+    background-color: #ffd1bd;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Grid */
+
+.work-grid {
+    margin-top: 3%;
+}
 
 
 
@@ -23,7 +41,7 @@
     padding-bottom: 3%;
 }
 
-.languages-and-skills-heading {
+.section-heading {
     margin-top: 3%;
     font-family: 'Montserrat', sans-serif;
 }
