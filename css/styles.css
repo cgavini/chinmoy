@@ -5,12 +5,13 @@
 .title {
     text-align: center;
     background-color: #ffd1bd;
-} 
+}
 
 .skills {
-    text-align: center;
     background-color: #ffffff;
+    text-align: center; 
 }
+
 
 
 
@@ -23,14 +24,17 @@
 }
 
 .languages-and-skills-heading {
-    margin-top: 5%;
+    margin-top: 3%;
     font-family: 'Montserrat', sans-serif;
 }
 
 
 /* Image Styles */
 
-
+.skills-image-container {
+    margin-top: 3%;
+    vertical-align: top;
+}
 
 .title-image {
     max-width: 20%;
@@ -38,69 +42,35 @@
 }
 
  .skills-image {
-     margin: auto;
-     max-width: 10%;
-} 
+    max-width: 5%;
+    max-height: 5%;
+     margin-right: 2%;
+}
+
+
+.html-image {
+    max-width: 7%;
+    max-height: 7%;
+}
 
 .css-image {
-    max-width: 7%;
-    margin: auto;
-} 
+    max-width: 4%;
+    max-height: 4%;
+}
 
-.skills-image-scaledown {
+.python-image {
     max-width: 20%;
-    margin: auto;
+    max-height: 20%;
 }
 
-
-
-
-
-
-
- /* Carousel Styles */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
+.sql-image {
+    max-width: 10%;
+    max-height: 10%;
 }
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: blue;
+.ruby-image {
+    max-width: 5%;
+    max-height: 5%;
 }
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: blue;
-}
-
-
-
-#skillsCarousel {
-    padding-top: 3%;
-    text-align: center;
-}
-
-@media only screen and (max-width: 700px) {
-  .carousel-control-prev-icon:after {
-      font-size: 25px;
-  }
-  .carousel-control-next-icon:after {
-      font-size: 25px;
-  }
-}
-
-
-
-
-
 
 
 
